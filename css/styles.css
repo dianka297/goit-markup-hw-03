@@ -73,7 +73,7 @@ ul, ol {
 }
 
 .header-menu-item {
-    padding: 24px 0;
+    padding-top: 24px;
 }
 
 
@@ -305,6 +305,7 @@ ul, ol {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    width: calc((100% - 48px) / 3); 
 }
 
 .portfolio-item {
