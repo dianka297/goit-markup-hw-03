@@ -352,6 +352,8 @@ ul, ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer-logo-studio {
@@ -362,7 +364,9 @@ ul, ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+    margin-bottom: 16px;
 }
+
 
 .footer-text {
     font-family: "Roboto", sans-serif;
@@ -371,4 +375,5 @@ ul, ol {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd; 
+    margin-top: 16px;
 }
