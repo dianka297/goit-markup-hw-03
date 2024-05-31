@@ -97,7 +97,8 @@ ul, ol {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2e2f42;  
-    padding: 24 px 0;
+    display: block;
+    padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -196,6 +197,7 @@ ul, ol {
     clip: rect(0 0 0 0);
     overflow: hidden; 
 }
+
 .advantages-list{
     padding: 120px 0;
     display: flex;
@@ -204,6 +206,7 @@ ul, ol {
 
 .advantages-item{
     width: calc((100% - 72px) / 4);  
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .advantages-subtitle{
@@ -254,6 +257,7 @@ ul, ol {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;  
 }
+
 .team-item .team-item-image{
     display: block; 
 }
