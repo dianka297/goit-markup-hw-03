@@ -70,7 +70,6 @@ ul, ol {
 .header-menu-list {
     display: flex;
     gap: 40px;
-    margin-right: 332px;
 }
 
 .header-menu-item {
@@ -204,7 +203,6 @@ ul, ol {
 }
 
 .advantages-item{
-    width: calc((100% - 72px) / 4);  
     flex-basis: calc((100% - 72px) / 4);
 }
 
